@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+    webserver:
+        image: graphql-bootcamp
+        ports:
+            - "80:3000"
+        volumes:
+            - ./app:/app
+
